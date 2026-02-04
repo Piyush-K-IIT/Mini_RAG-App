@@ -107,3 +107,13 @@ Standard RAG only "sees" text. A top-tier improvement is allowing the AI to unde
 Table Extraction: Use tools like Unstructured or Camelot to parse tables into Markdown so the LLM can "read" the data rows properly.
 
 Visual RAG: Use a multimodal model (like Gemini 1.5 Pro or GPT-4o) to describe images in the PDF. Store those descriptions in your vector database so you can "search" for images using text.
+
+## 📊 Quality Evaluation ( 5 Q/A pairs )
+
+| # | Question | Expected Answer | Result |
+| :--- | :--- | :--- | :--- |
+| 1 | Where was Gandhi born? | Gandhi was born in Porbandar | ✅ Pass |
+| 2 | Years in South Africa? | Gandhi lived in South Africa for 21 years | ✅ Pass |
+| 3 | Meaning of 'Mahatma'? | The honorific 'Mahatma' comes from Sanskrit and means "great-souled" or "venerable" | ✅ Pass |
+| 4 | Significance of Dandi March? | The Dandi March, also known as the Salt March or Civil Disobedience Movement, was undertaken by Gandhi and volunteers who marched from Ahmedabad to Dandi, Gujarat, with the declared intention of breaking the salt laws | ✅ Pass |
+| 5 | Who is Rohit Sharma | I don't know. The provided context does not contain information about Rohit Sharma. | ✅ Pass |
