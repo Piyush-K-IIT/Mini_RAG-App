@@ -2,6 +2,10 @@
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://minirag-app-w73elydxsbqwdnwmdbs4pl.streamlit.app)
 
+[![Resume](https://img.shields.io/badge/Resume-Download-blue?style=for-the-badge&logo=adobeacrobatreader)](https://drive.google.com/file/d/1rk3qzjPqrmVb3LdmcPBW7AMhFatcVsXR/view?usp=sharing.com)
+
+# Track - B 
+
 An end-to-end **Retrieval-Augmented Generation (RAG)** system designed to perform high-accuracy question answering over PDF documents. This project implements a production-grade two-stage retrieval pipeline using Google's Gemini 2.0 and Cohere's Reranking technology.
 
 ## 🚀 Live Demo
@@ -93,3 +97,13 @@ Launch the Streamlit server from your terminal:
 streamlit run mini-rag-app/app.py
 
 The app will automatically open in your default web browser at http://localhost:8501
+
+
+Remarks : Future Plan
+
+I will build "Multimodal" RAG
+Standard RAG only "sees" text. A top-tier improvement is allowing the AI to understand the images, tables, and charts inside your PDFs.
+
+Table Extraction: Use tools like Unstructured or Camelot to parse tables into Markdown so the LLM can "read" the data rows properly.
+
+Visual RAG: Use a multimodal model (like Gemini 1.5 Pro or GPT-4o) to describe images in the PDF. Store those descriptions in your vector database so you can "search" for images using text.
