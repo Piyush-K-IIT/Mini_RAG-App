@@ -2,8 +2,6 @@
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://minirag-app-w73elydxsbqwdnwmdbs4pl.streamlit.app)
 
-[![Resume](https://img.shields.io/badge/Resume-Download-blue?style=for-the-badge&logo=adobeacrobatreader)](https://drive.google.com/file/d/1rk3qzjPqrmVb3LdmcPBW7AMhFatcVsXR/view?usp=sharing.com)
-
 # Track - B 
 
 An end-to-end **Retrieval-Augmented Generation (RAG)** system designed to perform high-accuracy question answering over PDF documents. This project implements a production-grade two-stage retrieval pipeline using Google's Gemini 2.0 and Cohere's Reranking technology.
